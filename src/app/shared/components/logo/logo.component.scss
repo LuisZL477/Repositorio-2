@@ -1,0 +1,12 @@
+.shield-icon{
+    font-size: 80px;
+    margin-top: 40px;
+    background-size: cover; 
+    --border-color: rgb(85, 255, 0); /* Cambia el color del borde */
+    --border-width: 20px; /* Cambia el ancho del borde */
+    align-items: flex-start;
+    width: 100px; 
+    height: 100px;
+    display: inline-block; 
+    border-radius: 50%; 
+}
