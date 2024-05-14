@@ -33,8 +33,16 @@
                 <div *ngIf="form.controls.password">La contraseña es requirada</div>
             </div>
 
+            <p routerLink="forgot-password"  class="ion-text-end">¿Olvidaste tu contraseña?</p>
+
             <ion-button  expand="block" mode="ios" class="submit" type="submit" [disabled]="form.invalid">
                 Ingresar
+                <ion-icon slot="end" name="log-in-outline"></ion-icon>
+            </ion-button>
+
+            <ion-button style="color: rgb(255, 0, 212);" class="ion-margin-top" routerLink="sign-up"  expand="block" mode="ios"  fill="outline">
+                Registrarse
+                <ion-icon slot="end" name="person-add-outline"></ion-icon>
             </ion-button>
             
         </form>
